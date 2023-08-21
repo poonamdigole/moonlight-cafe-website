@@ -1,0 +1,146 @@
+.navbar-nav a {
+    font-size: 20px;
+    margin-left: 45px;
+}
+.brand a{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.img-container {
+    height: 92vh;
+    width: 100%;
+    background-image: url(./img/cafe-main.jpg);
+    background-size: cover;
+}
+.img-container div {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    padding-left:30px;
+    width: 500px;
+   background-color: black;
+   opacity: 0.7;
+    font-family: gabriola;
+    font-size: 90px;
+    color: white;
+}
+.about-section{
+    margin-top: 25px;
+}
+.card-about {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    font-size: 20px;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+.card-about { 
+ width: 450px;
+} 
+.card-menu { 
+    width: 400px;
+   } 
+   .where-section { 
+    width: 400px;
+   } 
+   .img-container div {
+    width: 150px;
+    font-size: 40px;
+   }
+}
+@media screen and (max-width: 1000px) {
+    .card-about { 
+     width: 550px;
+    } 
+    .card-menu { 
+        width: 450px;
+       } 
+       .where-section { 
+        width: 450px;
+       } 
+       .img-container div {
+        width: 350px;
+        font-size: 60px;
+       }
+    }
+.img-about {
+    width: 85%;
+    height: 60vh;
+}
+.card-menu {
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    text-align: center;
+}
+ .card-menu h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn-menu {
+width: 410px;
+height: 40px;
+margin: 15px;
+}
+.menu-img {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+.where-section {
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px; 
+}
+.where-section h1 {
+    margin-bottom: 30px;
+}
+.where-section p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+form {
+    text-align: center;
+}
+.input-box {
+    height: 40px;
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.input-submit {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 25%;
+    margin-top: 20px;
+    transition: 1s;
+}
+.input-submit:hover 
+{
+cursor: pointer;
+background-color: gray;
+color: rgb(4, 4, 61);
+}
+footer {
+    padding-top: 80px;
+    height: 120px;
+}
+footer p 
+{ 
+    text-align:center;
+    margin-bottom: 30px;
+}

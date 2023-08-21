@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <div class="brand">
+                <a class="navbar-brand" href="#">Moonlight Cafe</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" href="#about-id">About</a>
+                    <a class="nav-link active" href="#menu-id">Menu</a>
+                    <a class="nav-link active" href="#where-id">where</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="img-container">
+        <div>Moonlight Cafe</div>
+    </div>
+
+    <!-- About cafe -->
+    <div class="about-section" id="about-id">
+        <h1 style="text-align: center; margin: 20px;">ABOUT</h1>
+        <div class="card-about">
+            <p>The Cafe was founded in Delhi by Mr. Smith in lorem ipsum dolor sit amet,
+                consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In addition
+                to our full espresso
+                and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as
+                well as a selection
+                of sides and salads and other good stuff.we strive to provide the best experience to our guests. Our coffees are sourced from thousands of small coffee planters, who made us who we are today and we're glad to be a part of their lives. We opened our first cafe in 1996 at Brigade Road in Bangalore the youth and the young at heart immediately took to the cafe, and it continues to be one of the most happening places in the city. 
+            </p>
+
+            <p> <i>"Use products from nature for what it's worth - but never too early, nor too
+                    late." Café Coffee Day, a part of Coffee Day Global Limited, is India’s favourite hangout for coffee and conversations.  Fresh is the new sweet. Chef, Coffeeist and Owner: Liam Brown</i>
+            </p>
+            <img src="./img/cafe-cover.jpg" class="img-about">
+            <p style="margin-top: 15px;"> <b>Opening hours:</b> everyday from 6am to 5pm.</p>
+            <p> <b>Address:</b> 15 Adr street, 5015, NY</p>
+        </div>
+    </div>
+
+    <!-- Menu -->
+    <div class="menu-section" id="menu-id">
+        <div class="card-menu">
+            <h1>THE MENU</h1>
+            <a href="./pages/menu-eat.html" target="_blank">
+                <button type="button" class="btn btn-dark btn-sm btn-menu">
+                    <h5>Eat</h5>
+                </button>
+            </a>
+
+            <a href="./pages/menu-drink.html" target="_blank">
+                <button type="button" class="btn btn-dark btn-sm btn-menu">
+                    <h5>Drink</h5>
+                </button>
+            </a>
+         <div class="menu-img">
+            <div>
+                <img src="./img/menu-eat.jpg" height="300px" width="400px">
+            </div>
+            <div>
+                <img src="./img/menu-drink.jpeg" height="300px">
+            </div>
+        </div>
+        </div>
+    </div>
+ <!-- where -->
+ <div class="where-section" id="where-id">
+    <h1 style="text-align: center;">WHERE TO FIND US</h1>
+    <p>Find us at some address at some place.</p>
+    <img src="./img/location.jpeg" alt="" height="450px" width="100%">
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.
+</p>
+ <h4 style="text-align: center;"> Reserve a table, ask for today's special or just send us a message:</h4>
+
+ <form>
+<input type="text" class="input-box" placeholder="Enter Name"> 
+<input type="text" class="input-box" placeholder="How many person"> 
+<input type="datetime-local" class="input-box"> 
+<input type="text" class="input-box" placeholder="Message \ Special Requirement"> <br>
+<input type="submit" value=" Send message" class="input-submit">
+ </form>
+ </div>
+ <footer>
+    <p>Powered by <u>owner</u></p>
+ </footer>
+</body>
+</html>
